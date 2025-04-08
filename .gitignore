@@ -1,0 +1,33 @@
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/gradle.xml
+.idea/**/compiler.xml
+.idea/**/misc.xml
+.idea/**/vcs.xml
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === OS & Editor Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and Temp Files ===
+*.log
+*.tmp
+*.swp
